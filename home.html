@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Homepage</title>
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <nav>
+      <ol>
+        <li class="crumb"><a href="./home.html">Home</a></li>
+        <li class="crumb"><a href="./profile.html">Profile</a></li>
+        <li class="crumb"><a href="about.html" >About</a></li>
+        <li class="crumb"><a href="neighborhood.html">Neighborhood</a></li>
+      </ol>
+    </nav>
+
+    <content>
+      <h1>Welcome to this little website.</h1>
+      <!-- insert hello world here -->
+      <p>Hello World</p>
+      <img
+        src="https://cdn.pixabay.com/photo/2019/04/14/20/05/duck-meet-4127713_1280.jpg"
+      />
+
+      <p>Welcome to this page!</p>
+
+      <ul>
+        <li>You Look Good</li>
+        <li>Nice Hair</li>
+        <li>Glad you're here</li>
+      </ul>
+
+      <h2>Contact Us</h2>
+      <form id="contact">
+        Your name:
+        <input type="text" />
+
+        Message:
+        <input type="textarea" />
+
+        <input type="submit" />
+      </form>
+      <form>
+        <p>How did you hear about us?</p>
+        <label for="google">Google</label>
+        <input type="radio" id="google" name="fav-select" />
+        <label for="a friend">A friend</label>
+        <input type="radio" id="a-friend" name="fav-select"/>
+        <label for="other">Other</label>
+        <input type="radio" name="fav-select"/>
+      </form>
+    </content>
+
+    <script src="about.js"></script>
+  </body>
+</html>
